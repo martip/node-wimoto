@@ -1,5 +1,5 @@
-var Wimoto = require('../');
-var WimotoBroadcast = Wimoto.Broadcast;
+const Wimoto = require('../');
+const WimotoBroadcast = Wimoto.Broadcast;
 
 
 WimotoBroadcast.on('data', function(data) {

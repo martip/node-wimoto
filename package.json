@@ -1,6 +1,6 @@
 {
   "name": "wimoto",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node.js lib for Wimoto devices ",
   "main": "index.js",
   "scripts": {
@@ -8,22 +8,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sandeepmistry/node-wimoto.git"
+    "url": "https://github.com/martip/node-wimoto.git"
   },
   "keywords": [
     "wimoto"
   ],
-  "author": "Sandeep Mistry <sandeep.mistry@gmail.com>",
+  "author": "Paolo Martino <martip@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sandeepmistry/node-wimoto/issues"
+    "url": "https://github.com/martip/node-wimoto/issues"
   },
-  "homepage": "https://github.com/sandeepmistry/node-wimoto",
+  "homepage": "https://github.com/martip/node-wimoto",
   "dependencies": {
-    "noble": "^1.0.1",
-    "noble-device": "^1.0.2"
+    "@abandonware/noble": "^1.9.2-9",
+    "@instathings/noble-device": "^1.4.2"
   },
   "devDependencies": {
-    "async": "^1.0.0"
+    "async": "^3.2.0"
   }
 }

@@ -1,5 +1,5 @@
-var Broadcast = require('./lib/broadcast');
-var Climate = require('./lib/climate');
+const Broadcast = require('./lib/broadcast');
+const Climate = require('./lib/climate');
 
 module.exports = {
   Broadcast: new Broadcast(),

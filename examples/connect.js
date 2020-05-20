@@ -1,7 +1,7 @@
-var async = require('async');
+const async = require('async');
 
-var Wimoto = require('../');
-var WimotoClimate = Wimoto.Climate;
+const Wimoto = require('../');
+const WimotoClimate = Wimoto.Climate;
 
 WimotoClimate.discover(function(wimotoClimate) {
   console.log('discovered: ' + wimotoClimate);
